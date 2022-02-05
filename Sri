@@ -1,0 +1,35 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Bootstrap Example</title> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- jQuery library --> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- Popper JS --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> <!-- Latest compiled JavaScript --> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+ </head> 
+ <body>
+   Honda 
+  <div> <!-- Nav tabs --> 
+   <ul class="nav nav-tabs"> 
+    <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home">Home</a> </li> 
+    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#unicorn">unicorn</a> </li> 
+    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="shine 125c">shine 125c</a> </li> 
+   </ul> <!-- Tab panes --> 
+   <div class="tab-content"> 
+    <div class="tab-pane container active" id="home"> 
+     <p> hello sridhar</p> 
+     <br> 
+     <img src="Home.jpg" class="rounded" alt="" width="304" height="236">.. 
+    </div> 
+    <div class="tab-pane container fade" id="unicorn"> 
+     <p>hello Chinnoda</p>... 
+    </div> 
+    <div class="tab-pane container fade" id="shine 125c"> 
+     <img src="Shine 125 std.jpg" class="circle" alt="sridhar" width="304" height="236"> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>
