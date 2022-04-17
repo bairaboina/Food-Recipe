@@ -27,7 +27,7 @@ const Card = () => {
             <input type="submit" className="btn btn-primary" value="search" />
 
                 
-            </form>
+            </form>  
              {data.length>=1 ? <Filter  data={data}/>:null}
                
              
